@@ -21,12 +21,3 @@ const nulli = null
 console.log(nulli)
 //null variableja ei varmaan kannata koittaa saada ruudulle...
 
-
-function simppeli(x) {
-    return x
-  }
-
-console.log(simppeli("helloo",2))
-//ei kannata varmaan antaa tota 2 parametriä tohon ku ei toi funktio ota ku ekan vastaan...
-
-

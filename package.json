@@ -4,7 +4,7 @@
   "description": "eka uudestaan",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yritys-oyj/sample1/issues"
   },
-  "homepage": "https://github.com/yritys-oyj/sample1#readme"
+  "homepage": "https://github.com/yritys-oyj/sample1#readme",
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
 }
