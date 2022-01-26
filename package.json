@@ -18,5 +18,9 @@
   "homepage": "https://github.com/yritys-oyj/sample1#readme",
   "dependencies": {
     "jest": "^27.4.7"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"]
   }
 }
