@@ -1,0 +1,19 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "eka uudestaan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yritys-oyj/sample1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yritys-oyj/sample1/issues"
+  },
+  "homepage": "https://github.com/yritys-oyj/sample1#readme"
+}
