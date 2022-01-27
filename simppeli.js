@@ -8,19 +8,27 @@ console.log(simppeli(1,2, 3))
 
 
 //DUPLACTE CODE:
-const jotain = "jotain"
+function duplo () {
 
-if (jotain === "jotain") {
-    const tulos = jotain + "extraa"
-    const tulos2 = jotain + "extraa2"
-    console.log(tulos + tulos2)
+    const jotain = "jotain"
+    let tulos = ""
+    if (jotain === "jotain") {
+        tulos = jotain + " extraa"
+        const tulos2 = jotain + "extraa2"
+        console.log(tulos + tulos2)
+    }
+    
+    if (jotain === "jotain") {
+        tulos = jotain + " extraa"
+        const tulos2 = jotain + "extraa2"
+        console.log(tulos + tulos2)
+    }
+    
+    console.log(tulos)
+    return tulos
+
 }
 
-if (jotain === "jotain") {
-    const tulos = jotain + "extraa"
-    const tulos2 = jotain + "extraa2"
-    console.log(tulos + tulos2)
-}
-
+duplo ()
 
 module.exports = simppeli
